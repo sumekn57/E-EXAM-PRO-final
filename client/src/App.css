@@ -1,0 +1,8 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.hero-section {
+    background-image: url('./assets/imgs/home-page-banner.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}

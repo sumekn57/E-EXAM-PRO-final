@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "react": "cd client; npm start",
+    "node": "cd api; npm run dev",
+    "dev": "concurrently \"npm run react\" \"npm run node\"",
+    "install": "cd client && ni && cd ../api && ni"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "react-icons": "^4.10.1"
+  }
+}
